@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "GitHub Projects Fullscreen Compressed",
+  "version": "1.0.0",
+  "description": "Compresses the columns and UI when in fullscreen mode for GitHub projects to allow for more room.",
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://github.com/orgs/alphagov/projects/*?fullscreen=true"]
+  }]
+}

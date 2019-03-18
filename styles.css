@@ -1,0 +1,65 @@
+:root {
+  --__GITHUB_PROJECTS_FULLSCREEN_COMPRESSED__padding: 5px;
+  --__GITHUB_PROJECTS_FULLSCREEN_COMPRESSED__project-column-width: 31ch;
+}
+
+.project-full-screen .project-columns-container {
+  padding: calc(var(--__GITHUB_PROJECTS_FULLSCREEN_COMPRESSED__padding) * 2) !important;
+}
+
+.project-full-screen .project-column {
+  max-width: 100% !important;
+  min-width: var(--__GITHUB_PROJECTS_FULLSCREEN_COMPRESSED__project-column-width) !important;
+  margin-right: calc(var(--__GITHUB_PROJECTS_FULLSCREEN_COMPRESSED__padding) * 2) !important;
+}
+
+.project-full-screen .pl-5 {
+  padding-left: calc(var(--__GITHUB_PROJECTS_FULLSCREEN_COMPRESSED__padding) * 2) !important;
+}
+
+.project-full-screen .project-card .card-octicon {
+  right: var(--__GITHUB_PROJECTS_FULLSCREEN_COMPRESSED__padding);
+  top: 25px;
+  left: auto;
+  width: 16px;
+  text-align: center;
+}
+
+.project-full-screen .project-card .js-details-container .card-octicon {
+  top: 5px;
+}
+
+.project-full-screen .project-card .card-octicon summary {
+  margin: 0 !important;
+}
+
+.project-full-screen .project-card small.pr-6 {
+  padding-right: 0 !important;
+}
+
+.project-full-screen .project-card .details-overlay {
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+
+.project-full-screen .project-card summary {
+  margin-right: 7px !important;
+}
+
+.project-full-screen .project-card .issue-card-label {
+  font-size: 10px !important;
+  padding: 4px !important;
+  height: auto !important;
+  line-height: 1.1 !important;
+}
+
+.project-full-screen .js-project-column-cards {
+  padding-left: var(--__GITHUB_PROJECTS_FULLSCREEN_COMPRESSED__padding) !important;
+  padding-right: var(--__GITHUB_PROJECTS_FULLSCREEN_COMPRESSED__padding) !important;
+}
+
+
+.project-full-screen .js-project-issue-details-container small.d-block,
+.project-full-screen .js-project-card-issue-link {
+  margin-right: 15px !important;
+}
